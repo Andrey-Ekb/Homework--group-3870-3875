@@ -1,6 +1,6 @@
 ﻿// Удалить вторую цифру трехзначного числа
 Console.WriteLine("Введите трехзначное число - ");
-int Number = int.Parse(Console.ReadLine());
+int Number = int.Parse(Console.ReadLine() ?? "0");
 
 int firsNum=Number/100;
 
